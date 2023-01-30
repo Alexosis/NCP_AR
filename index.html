@@ -2,9 +2,9 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
 <!-- three.js library -->
-<script src='scr/vendor/three.js/build/three.min.js'></script>
+<script src='src/vendor/three.js/build/three.min.js'></script>
 <!-- three.js load GLTF -->
-<script src='scr/vendor/three.js/GLTFLoader.js'></script>
+<script src='src/vendor/three.js/GLTFLoader.js'></script>
 <!-- ar.js -->
 <script src='build/ar-threex.js'></script>
 
@@ -155,7 +155,7 @@
         // init controls for camera
         var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
             type : 'nft',
-            descriptorsUrl : 'scr/resources/pinball/pinball',
+            descriptorsUrl : 'src/resources/pinball/pinball',
             changeMatrixMode: 'cameraTransformMatrix'
         })
 
